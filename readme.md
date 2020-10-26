@@ -2,6 +2,8 @@
 
 From an idea in JavaScript30 course by [Wes Bos](//github.com/wesbos), I wrote my version of this simple clock using HTML, CSS, and vanilla Javascript. I have slightly improved the project by making it responsive and changing the moving algorytm for hour and minutes hands.
 
+**Demo: [https://pasor1.netsons.org/drum/](https://pasor1.netsons.org/clock/)**
+
 ## info
 
 - main style: /src/assets/scss/main.scss

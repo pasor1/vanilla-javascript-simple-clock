@@ -14,7 +14,11 @@ function setClock() {
   secondHand.style.transform = `rotate(${angleSecond}deg)`;
   minuteHand.style.transform = `rotate(${angleMinute}deg)`;
   hourHand.style.transform = `rotate(${angleHour}deg)`;
-
 }
 
-setInterval(() => setClock(), 1000);
+document.addEventListener("DOMContentLoaded", () => {
+  setClock();
+  document.getElementById('clock').style.opacity = '1';
+  setInterval(() => setClock(), 1000)
+})
+
