@@ -1,15 +1,15 @@
 {
-  "name": "testing",
+  "name": "simple-clock",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "",
   "scripts": {
     "test": "gulp",
     "build": "gulp build",
     "clean": "gulp clean",
     "deploy": "gulp deploy"
   },
-  "author": "Simone Pasini",
+  "author": "Pasor1",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
