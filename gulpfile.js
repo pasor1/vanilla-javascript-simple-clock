@@ -54,7 +54,7 @@ function gulpWatch() {
 }
 
 function cleanDist() {
-  return gulp.src(distFolder + '/**/*.*', {read: false})
+  return gulp.src(distFolder + '/**/', {read: false})
   .pipe(clean());
 }
 
